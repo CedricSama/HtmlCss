@@ -1,0 +1,61 @@
+body {
+    background: rgba(255, 120, 127, 0.1);
+}
+
+a {
+  color: rgba(255,26,53,0.98)
+}
+
+table,td,th {
+    color:black;
+    border: 1px solid #000;
+    /*supprimer les espaces entre les cellules*/
+    border-collapse: collapse;
+}
+/*ici l'espace entre les deux sélecteurs indique que le dernier selecteur est enfant du premier*/
+table a {
+    color:yellow;
+}
+
+table a.btn-action {
+    color: #c350ff;
+}
+
+table td:last-child {
+    background: #48b5ff;
+}
+
+table td:last-child a {
+    color: black;
+    display: block;
+    margin: 5px;
+    background: orange;
+    /*suppression de l'effet souligné*/
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+table td:last-child a:hover {
+    background: #ff6900;
+}
+table td:last-child a:last-child{
+    background: #ff1618;
+}
+table td:last-child a:last-child:hover {
+    background: #ffcefc;
+}
+
+table td:nth-child(5) {
+    background: #ffe31a;
+    text-align: center;
+}
+
+/*Impair*/
+table tbody tr:nth-child(odd) {
+    background: #31f7ff;
+}
+/*pair*/
+table tbody tr:nth-child(even) {
+    background: #a1ff2b;
+}
+

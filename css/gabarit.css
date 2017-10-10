@@ -1,0 +1,34 @@
+body {
+    background: #ff7a31;
+    margin: 0;
+}
+div#header {
+    height: 100px;
+}
+
+div#container {
+    width: 1200px;
+    background: #48b5ff;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#col1 {
+    width: 300px;
+    background: #fff424;
+    float: left;
+    height: 400px;
+}
+div#col2 {
+    width: 850px;
+    background: #8eff74;
+    float:right;
+    height: 400px;
+}
+.clearfix {
+    clear:both;
+}
+div#footer {
+    background: #de42ff;
+    width: 1200px;
+    height: 200px;
+}
