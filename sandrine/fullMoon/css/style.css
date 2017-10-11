@@ -1,0 +1,121 @@
+body{
+    background-color: #d7ccc8;
+}
+
+.container{
+    background-color: #dd2549;
+}
+
+.bg-blue{
+    background-color: #00ADB3;
+}
+
+.bg-grey{
+    background-color: #999999;
+}
+.bg-lightgrey{
+    background-color: #C0CBD1;
+}
+
+.bg-turquoise{
+    background-color: #69DAE2;
+}
+
+.blanc{
+    color: white;
+}
+
+.bleu-vert{
+    color:#349794;
+    /*color:#00adb3;;*/
+}
+
+.gris-moyen{
+    color:#999999
+}
+
+.logo{
+    /*background-image: url("../img/logo.png");*/
+    /*background-repeat: no-repeat;*/
+    width: 320px;
+    height: 70px ;
+}
+
+.border{
+    margin-right: 5px;
+}
+
+.slider, .border{
+    /*border:1px solid darkgray;*/
+    /*padding: 5px;*/
+}
+.slider img{
+    width: 100%;
+}
+
+.slider img, .vignettes img, .MyCardRight img{
+    padding: 5px;
+    border:1px solid darkgray;
+
+}
+
+.MyCardRight .img1{
+    width: 290px;
+}
+.MyCardRight .img2{
+    width: 60px;
+}
+
+.img2 img{
+    border: none;
+    padding-top: 0;
+}
+
+.auteur{
+    text-align: right;
+}
+.divider{
+    border-bottom: 1px dashed;
+    /*color: #00adb3;*/
+}
+.TitreGauche{
+    /*color:#00adb3;*/
+}
+
+.ReadMore{
+    font-size: larger;
+}
+.MyCard h4{
+    padding-left: 8px;
+}
+
+.MyCard, .load{
+    background-color: #EEEEEE;
+}
+
+.load1{
+    font-style: italic;
+    font-weight: bold;
+    color: #5A5A5A;
+    height: 90px;
+}
+
+.MyCardRight .TitreDroit{
+    height: 40px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.apostrophe, .load{
+    align-items: baseline;
+}
+
+.bouton{
+    border-radius: 5px;
+    height: 30px;
+}
+
+.tweets a{
+    margin-left: 490px;
+}
