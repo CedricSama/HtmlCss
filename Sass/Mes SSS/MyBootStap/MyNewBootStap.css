@@ -1,0 +1,72 @@
+.colorbordred {
+  border: #af4442;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+  margin: auto; }
+
+.colorbordblue {
+  border: #31708f;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+  margin: auto; }
+
+.colorbordgreen {
+  border: #3c763d;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+  margin: auto; }
+
+.colorbordyellow {
+  border: #8a6d3b;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+  margin: auto; }
+
+.mycolorr {
+  color: #af4442; }
+
+.mycolorb {
+  color: #31708f; }
+
+.mycolorg {
+  color: #8a6d3b; }
+
+.mycolory {
+  color: #8a6d3b; }
+
+.colorbackgroundred {
+  background: #f2dede; }
+
+.colorbackgroundred {
+  background: #d9edf7; }
+
+.colorbackgroundred {
+  background: #dff0d8; }
+
+.colorbackgroundred {
+  background: #fcf8e3; }
+
+/*
+.borderRed{
+   border: 1px solid $c-red;
+   border-radius: 5px;
+   @include padding10;
+   &.alert{
+
+   }
+ }
+*/
+
+/*# sourceMappingURL=MyNewBootStap.css.map */
