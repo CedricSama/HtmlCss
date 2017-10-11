@@ -1,0 +1,127 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+}
+
+header{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #555555;
+    color: white;
+    height: 50px;
+}
+
+.mail{
+    padding-left: 4%;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header img{
+    /*border-left: 1px solid #eeeeee;*/
+    margin-left: 5px;
+    margin-right: 5px;
+    /*padding-left: 5px;*/
+    /*padding-right: 5px;*/
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    width: 100%;
+    height : 200px;
+    background-color: #00b0ff;
+}
+
+
+.reseaux{
+    /*display: inline-block;*/
+    float: right;
+    /*height: 50px;*/
+    /*padding-top: 0;*/
+    /*padding-bottom: 0;*/
+    padding-right: 50px;
+}
+
+.reseaux a{
+    border-left: 1px solid #eeeeee;
+}
+
+.maison{
+    width: 56px;
+    height: 56px;
+    background-color: #FF5C01;
+}
+
+.maison img{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.imageslider {
+    width: 100%;
+}
+
+.img4{
+    margin:0;
+    padding: 5px;
+}
+.respons, .custom, .fresh{
+    background-color: white;
+}
+
+.respons p, .fresh p{
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+.custom p{
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.respons h6, .custom h6, .fresh h6{
+    text-align: center;
+}
+
+.welcome{
+    color: #FF5C01;
+}
+
+.bouton{
+    background-color: #FF5C01;
+    border: none;
+    border-radius: 0px;
+
+}
+
+.positbouton{
+    display: flex;
+    /*justify-content: flex-end;*/
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.welcome::before{
+    content: url("../img/puce_orange.png");
+    margin-right: 15px;
+}
+
+/*.bordwelcome::after{*/
+    /*content: url("../img/puce_orange.png");*/
+    /*!*margin-bottom: 50px;*!*/
+/*}*/
+
+.bordwelcome{
+    border-left: 3px solid #FF5C01;
+}
+
+.alignwelcome p{
+    margin-left: 30px;
+}
