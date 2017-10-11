@@ -1,0 +1,133 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    /*font-family: "Times New Roman";*/
+    font-family: Times New Roman;
+}
+
+form{
+    border:1px solid #ffffff;
+    background-color: #9CBC2D ;
+    border-radius: 5px;
+}
+
+form fieldset{
+    border: none;
+}
+
+form fieldset legend{
+    font-size: larger;
+}
+
+form fieldset div{
+    border: 2px solid #E0F1AA;
+    background-color: #B9CF6A;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form fieldset div input, form fieldset div textarea{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+form fieldset div textarea{
+    height: 80px;
+}
+
+form fieldset div label{
+    width: 30%;
+    float: left;
+}
+
+form fieldset div input::-webkit-input-placeholder{
+    font-style: italic;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    font-style: italic;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-style: italic;
+}
+
+input#nom{
+    background-color: #EAEAEA;
+}
+
+#identite{
+    margin-top: 20px;
+}
+
+.cb{
+    display: flex;
+    flex-direction: column;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*flex-wrap: nowrap;*/
+    border: none;
+    /*margin-left: 0;*/
+}
+
+/*.cb p{*/
+    /*-webkit-margin-after: 0em;*/
+/*}*/
+
+/*.radio div{*/
+    /*border: none;*/
+    /*display: inline-block;*/
+/*}*/
+.form fieldset div input[type="radio"]{
+    /*vertical-align:middle ;*/
+}
+
+#acheter{
+    height: 40px;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    background-color: #394311;
+    color: white;
+    text-transform: uppercase;
+    /*font-weight: bold;*/
+    font-size: larger;
+    border: none;
+}
+
+/*input[type="email"]:valid{*/
+    /*border: 1px solid #1096e2;*/
+/*}*/
+
+/*input[type="email"]:invalid {*/
+    /*border: 3px solid #cc0c26;*/
+/*}*/
+
+input:valid{
+    border: 1px solid #1096e2;
+}
+
+input:invalid{
+    border: 3px solid #cc0c26;
+}
+
+:required{
+    background-color: rgba(87, 250, 58, 0.35);
+}
+/*input[type="date"] {*/
+    /*font-style: italic;*/
+    /*color: #7b7e7f;*/
+/*}*/

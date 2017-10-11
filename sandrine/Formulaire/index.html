@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Formulaire de paiement</h1>
+<div class="container">
+    <form action="">
+        <fieldset id="identite">
+            <legend >Step 1 : Votre identité</legend>
+            <div>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" placeholder="Prénom et nom" autofocus>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,5}$" required name="email" id="email" placeholder="exemple@domaine.com">
+            </div>
+            <div>
+                <label for="date">Date naissance</label>
+                <input type="date" required name="date" id="date">
+            </div>
+            <div>
+                <label for="tel">Téléphone</label>
+                <input type="text" required pattern="[0]{1}[1-9]{1}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}$" name="tel" id="tel" placeholder="00 00 00 00 00">
+            </div>
+        </fieldset><!-- identite -->
+
+        <fieldset>
+            <legend>Step 2 : Adresse de livraison</legend>
+            <div>
+                <label for="adresse">Adresse</label>
+                <textarea cols="30" name="adresse" id="adresse"></textarea>
+            </div>
+            <div>
+                <label for="cp">Code postal</label>
+                <input type="number" pattern="[0-9]{5}$" name="cp" id="cp">
+            </div>
+            <div>
+                <label for="pays">Pays</label>
+                <input type="text" name="pays" id="pays">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Step 3 : Informations CB</legend>
+            <div class="cb">
+                <span>Type de carte bancaire</span>
+                <div class="radio">
+                    <input type="radio" name="cb" value="visa" id="visa" checked/>
+                    <img src="img/visa.gif" alt="">
+                    <label for="visa"> VISA </label>
+
+                    <input type="radio" name="cb" value="amex" id="amex" />
+                    <img src="img/amex.gif" alt="">
+                    <label for="amex"> AmEX </label>
+
+                    <input type="radio" name="cb" value="master" id="master" />
+                    <img src="img/mastercard.gif" alt="">
+                    <label for="master"> Mastercard </label>
+                </div>
+            </div>
+            <div class="numcb">
+                <label for="numcb">N° de carte</label>
+                <input type="text"  required pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" name="numcb" id="numcb" placeholder="0000 0000 0000 0000">
+            </div>
+            <div class="securite">
+                <label for="securite">Code sécurité</label>
+                <input type="number" name="securite" id="securite">
+            </div>
+            <div class="porteur">
+                <label for="porteur">Nom du porteur</label>
+                <input type="text" name="porteur" id="porteur" placeholder="même nom que sur la carte">
+            </div>
+        </fieldset>
+
+        <input id="acheter" type="submit" value="J'achète !" />
+    </form>
+</div>
+</body>
+</html>
