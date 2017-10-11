@@ -1,0 +1,44 @@
+body, html {
+  width: 100%;
+  margin: 0; }
+
+.lign_contain {
+  width: 100%; }
+
+div .un {
+  border: #6394d6 2px solid;
+  box-sizing: border-box; }
+
+/*@media all and (min-width: 990px) {
+  .contain{
+      width: 1600px;
+      margin: auto;
+      background-color: #d1d3d6;
+   }
+}*/
+@media all and (min-width: 1000px) {
+  .class-Costum-Col-lg100 {
+    width: 50%;
+    margin: 0; }
+
+  .class-Costum-Col-lg25 {
+    width: 25%;
+    float: left; } }
+@media all and (min-width: 769px) and (max-width: 999px) {
+  .class-Costum-Col-md50 {
+    width: 50%; } }
+@media all and (max-width: 768px) {
+  .class-Costum-Col-s100 {
+    width: 100%; }
+
+  .class-Costum-Col-s50 {
+    width: 50%; }
+
+  .contain {
+    width: 100%;
+    margin: auto; } }
+.un {
+  height: 30px;
+  background-color: #00adb1; }
+
+/*# sourceMappingURL=index.css.map */

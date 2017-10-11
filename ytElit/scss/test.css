@@ -1,0 +1,32 @@
+/*@mixin nom_groupe{
+  margin-right:10px;
+  margin-left:10px;
+}
+
+.container{
+  @include nom_groupe;
+  .autreclass{
+    border:2px;
+    .classeenfant{
+      color: red;
+    }
+  }
+}*/
+nav span.nav-title {
+  padding: 0;
+  margin-left: 30px; }
+
+nav ul {
+  margin-right: 30px; }
+
+footer {
+  bottom: 0; }
+
+.page-footer {
+  height: 30px;
+  padding: 5px; }
+
+.page-footer p {
+  margin: auto 0; }
+
+/*# sourceMappingURL=test.css.map */
