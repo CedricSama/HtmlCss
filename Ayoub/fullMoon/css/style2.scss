@@ -1,0 +1,59 @@
+.TutreBlue{
+  background-color: #00acc1;
+  color: #FFFFFF!important;
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+.bg-blue{
+  background-color: #00acc1;
+}
+nav a,
+.white-text{
+  color: #FFFFFF!important;
+}
+
+.devider{
+  width: 100%;
+  border-bottom: 1px dashed #00acc1;
+}
+.imagecarousel{
+  padding: 5px;
+  border:1px solid #787A78;
+  width: 100%;
+}
+
+
+.card{
+  background-color: #bec6cc;
+  border:1px solid #626669;
+  h4{
+    color: #00acc1;
+    font-size: 20px;
+  }
+  a{
+    color: #00acc1;
+    font-size: 16px;
+    &::before{
+      content: url("../img/arrow_bullet.png");
+      margin-right: 10px;
+    }
+    &::after{
+      content: url("../img/arrow_bullet.png");
+      margin-left: 10px;
+    }
+  }
+}
+
+//
+blockquote
+{
+  font-family:"Segoe Print", "Times New Roman", Verdana;
+  font-style: oblique;
+  &::before{
+    content:url('../img/quotes.png');
+  }
+  &::after{
+    content:url('../img/quotes2.png');
+   float: right;
+  }
+}

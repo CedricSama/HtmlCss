@@ -1,0 +1,81 @@
+.bg-green
+{
+    background-color: #00ADB3;
+}
+
+.nav-link{
+    color: #FFFFFF!important;
+}
+.logo{
+    /*background-image: url("../img/logo.png");*/
+    width: 320px;
+    height: 70px;
+}
+.slider{
+    border:1px solid darkgray;
+    padding: 5px;
+}
+
+.divider{
+    border-bottom: 1px dashed ;
+    color: #00ADB3;
+}
+
+
+.infoBorder{
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #EEEEEE;
+}
+
+.Mycard{
+    background-color: #EEEEEE;
+}
+.Mycard .card-title{
+    color: #00ADB3;
+}
+.bIcones{
+    margin:1px;
+}
+.bIcones img{
+    margin:1px;
+}
+
+.barreNoire{
+    background-color: #484848;
+    padding: 5px;
+}
+.barreNoire span{
+    color: #7BCAC5;
+
+}
+
+.Title{
+   background-color:  #7BCAC5;
+}
+
+.classeFleche:after{
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    bottom: -20px;
+    margin-left: 0px;
+    border-top-color: #fff;
+    left: 50%;
+    content: "";
+    border-width: 10px;
+
+}
+
+blockquote
+{
+    font-style:normal;
+    margin-left:10px;
+    font-family:"Segoe Print", "Times New Roman", Verdana;
+    padding-left: 48px;
+    background:url('../img/quotes.png');
+    background-repeat:no-repeat;
+    min-height: 30px;
+}
