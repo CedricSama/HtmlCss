@@ -1,0 +1,125 @@
+/*
+    1. GLOBAL
+    2. NAVIGATION
+    3. COL 1: contenu
+ */
+
+
+/******************************************************************
+* GLOBAL
+ ******************************************************************/
+body {
+    margin:0;
+}
+.clearfix {
+    clear:both;
+}
+/******************************************************************
+* STRUCTURE
+ ******************************************************************/
+div#container {
+    width: 1200px;
+    background: #5f5cff;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#logo,
+div#top-r {
+    float:left;
+    height: 150px;
+
+}
+div#logo {
+    width: 370px;
+    background: #ffbb6c;
+}
+
+div#col_1,
+div#col_2,
+div#col_3 {
+    float: left;
+    height: 400px;
+}
+
+div#col_1 {
+    width: 200px;
+    background: #ff6170;
+}
+div#col_2 {
+    width: 700px;
+    background: #d44cff;
+}
+div#col_3 {
+    width: 300px;
+    background: #8f7cff;
+}
+div#lfoot,
+div#rfoot {
+    float:left;
+    height: 200px;
+}
+div#lfoot {
+    width: 250px;
+    background: #ffd763;
+}
+div#rfoot {
+    width: 950px;
+    background: #34ffc7;
+}
+
+/******************************************************************
+* NAVIGATION
+ ******************************************************************/
+div#top-r {
+    width: 830px;
+    background: #b6ff3f;
+    position: relative;
+}
+div#top-r nav {
+    background: #ff6f34;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*height: 48px;*/
+    
+}
+div#top-r nav div.item {
+    float: left;
+}
+div#top-r nav div.item a {
+    color:white;
+    text-decoration: none;
+    background: #5da7ff;
+    padding: 15px;
+    display: block;
+    border-right: 1px solid #000000;
+}
+div#top-r nav div.item a:hover {
+    background: #ff9e3d;
+}
+
+/******************************************************************
+* COL 1: contenu
+ ******************************************************************/
+div#col_1 h2 {
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 2px;
+}
+div#col_1 h2 + img {
+    width: 90%;
+    margin-left:5%;
+}
+div#col_1 img + a {
+    background: #fff936;
+    float: right;
+    margin-right:5%;
+    padding: 4px;
+    text-decoration: none;
+    color:black;
+}
+div#col_1 a img {
+    width: 42.5%;
+    margin-left:5%;
+    margin-bottom:5%;
+}
