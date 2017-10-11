@@ -1,0 +1,20 @@
+.bodure-gris {
+    border: 2px solid lightgrey;
+    /*border-color: ;*/
+    padding: 10px;
+}
+
+.bodure-gris-ptt-img {
+    border: 2px solid lightgrey;
+    /*border-color: lightgrey;*/
+    padding: 5px;
+}
+
+.bordure-azure {
+
+    border: 1px dashed #6a8785;
+}
+
+#carouselExampleIndicators > div > div.carousel-item.active > img {
+    width: 100%;
+}
