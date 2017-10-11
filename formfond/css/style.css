@@ -1,0 +1,28 @@
+h1{
+    display: inline;
+}
+#smallDiv{
+    width: inherit;
+
+}
+.H1class{
+    font-family:'Arial Black';
+    font-size: 30px;
+    color: aqua!important;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#H1class{
+    font-family:'Arial Black';
+    font-size: 100px;
+    color: orange;
+}
+div{
+    border:1px dotted deepskyblue;
+}
+#H1class2{
+    font-family:'Arial Black';
+    font-size: 100px;
+    color: orange;
+}

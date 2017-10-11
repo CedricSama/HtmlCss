@@ -1,0 +1,167 @@
+body{
+    background-color: #CCCCCC;
+}
+
+#container{
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    margin: 20px auto;
+}
+.sectionBorder{
+    border-left:1px solid #CCCCCC;
+
+}
+.sectionBorder > *{
+    margin-left: 20px!important;
+}
+header{
+    box-sizing: border-box;
+    height: 265px;
+    background-image: url('../img/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 65px;
+    border-bottom: 2px solid #78A725;
+}
+
+#logo{
+    width:155px;
+    height: 67px;
+    background-image: url("../img/logo.png");
+    margin-left: 25px;
+}
+header > h2{
+    font-family: Arial;
+    color: #949494;
+    margin-left:40px;
+    margin-top: -8px;
+    line-height: 15px;
+}
+
+.slogant{
+    font-size: 11px;
+    text-transform: lowercase;
+}
+
+header>nav{
+    margin-top: 84px;
+    margin-left: 290px;
+}
+nav > ul{
+    margin:0;
+    padding:0;
+
+
+}
+nav > ul > li{
+    display: inline-block;
+    background-color: #72aa21;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding:2px 10px;
+    /*list-style-image : url("../img/puce.png");*/
+}
+#main ul{
+    margin: 115px 0px 0px 0px;
+    /*padding:0;*/
+    list-style-type: none;
+}
+#main li{
+    display: list-item;
+    list-style-image : url("../img/puce.png");
+    background-color: #CCCCCC;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom:2px;
+    height:16px;
+}
+#main li div{
+    box-sizing: border-box;
+    display: block;
+    font-family:Arial;
+    font-size: 12px;
+    margin:auto 0px;
+}
+nav > ul > li > a{
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#main:after{
+    content: '.';
+    width:0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+
+}
+#main{
+    background-color: #FFFFFF;
+}
+#main  h2 {
+    color: #FFB700;
+    font-family: Arial;
+}
+#main  p {
+    font-size: 12px;
+    color: #88888a;
+    font-family: Arial;
+}
+.readmore a{
+    color: #FFB700;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.readmore a:hover{
+    text-decoration: underline;
+}
+#mainleft {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    /*border-right:1px solid #CCCCCC;*/
+}
+#mainright{
+
+    float: right;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    /*border-left:1px solid #CCCCCC;*/
+}
+#description img{
+    float: left;
+    width: 113px;
+}
+#description p{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    float: right;
+    width:60%;
+}
+.orange{
+
+    color: #FFB700;
+}
+.vert{
+    color: #72aa21;
+}
+.gras{
+    font-weight: bold;
+}
+footer{
+    text-align: right;
+    color: #CCCCCC;
+    /*content: 'yourCompany.com 2017 @ copywrite';*/
+    font-size: 11px;
+    font-family: Arial;
+    height: 20px;
+}
