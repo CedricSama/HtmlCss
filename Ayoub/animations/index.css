@@ -1,0 +1,93 @@
+@keyframes animName {
+  from {
+    left: 90%;
+    background-color: #0e09c1; }
+  to {
+    left: 0;
+    background-color: #00C853; } }
+@keyframes animNamerotation {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(180deg); } }
+@-moz-keyframes animNamesteps {
+  0% {
+    left: 90%;
+    background-color: #0e09c1; }
+  25% {
+    left: 0;
+    background-color: #00C853;
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+@-webkit-keyframes animNamesteps {
+  0% {
+    left: 90%;
+    background-color: #0e09c1; }
+  25% {
+    left: 0;
+    background-color: #00C853;
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes animNamesteps {
+  0% {
+    left: 90%;
+    background-color: #0e09c1; }
+  100% {
+    background-color: #00C853; } }
+#div1 {
+  animation-timing-function: linear;
+  top: 0; }
+
+#div2 {
+  animation-timing-function: ease;
+  top: 20px; }
+
+#div3 {
+  animation-timing-function: ease-in;
+  top: 40px; }
+
+#div4 {
+  animation-timing-function: ease-out;
+  top: 60px; }
+
+#div5 {
+  animation-timing-function: ease-in-out;
+  top: 80px; }
+
+.animated {
+  margin: 10px;
+  position: absolute;
+  transform: rotate(180deg);
+  background-color: #c8226e;
+  animation-name: animNamesteps;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-delay: 5s;
+  -webkit-animation-name: animNamesteps;
+  -webkit-animation-duration: 5s;
+  -moz-animation-name: animNamesteps;
+  -moz-animation-duration: 5s; }
+
+.tran {
+  width: 100px;
+  height: 100px;
+  background-color: #fa0000;
+  -o-transition: width 5s;
+  -moz-transition: width 5s;
+  -webkit-transition: width 5s;
+  /* Safari */
+  transition: width 5s linear, background-color 2s, opacity 5s;
+  opacity: 1; }
+
+.green {
+  background-color: green; }
+
+.tran:hover {
+  opacity: 0.3;
+  background-color: yellow;
+  width: 500px; }
+
+/*# sourceMappingURL=index.css.map */
