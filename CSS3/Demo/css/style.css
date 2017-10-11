@@ -177,7 +177,6 @@ main header, main section, main aside, main footer {
     /*border-image-slice: 42 97;*/
     border-image-outset: 26px;
     border-image-outset: 35px;
-    */
 }
 #bg-css3 {
     background: url(../img/bg-arbre.jpg) right no-repeat;
@@ -247,7 +246,7 @@ main header, main section, main aside, main footer {
 }
 @font-face {
     font-family: 'yananeska';
-    src: url('../fonts/yananeska/yananeska.woff2') format('woff2'),
+    src:
     url('../fonts/yananeska/yananeska.woff') format('woff'),
     url('../fonts/yananeska/yananeska.ttf') format('truetype');
 }
