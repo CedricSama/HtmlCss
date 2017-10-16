@@ -1,0 +1,281 @@
+html, body{
+    margin:0;
+}
+a{
+    font-family: Arial;
+    color: #CCCCCC;
+    text-decoration: none;
+}
+body{
+    background-image: url('../img/main_bg.gif') ;
+    background-repeat: repeat;
+}
+
+.maincontainer{
+    margin-right: 125px;
+    margin-left: 125px;
+}
+
+h1{
+    font-family: Nunito, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: ED2B50;
+
+}
+
+.navbarheader{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    vertical-align: middle;
+    word-spacing: 15px;
+}
+
+.navbarheader nav{
+    height: 100%;
+    margin-left: 110px;
+}
+.navbarheader ul{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+.navbarheader ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.navbarheader ul li:hover,  .navbarheader ul li.active{
+    color: #fefffe;
+    background-color: #eb2b50;
+}
+.navbarheader ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navbarheader .icon-bar button{
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px transparent;
+    border-radius: 5px;
+    color: #fefffe;
+    background-color: #eb2b50;
+
+}
+.headercontainer{
+    height: 90px;
+}
+
+.headercontainer .titregauche .Rouge{
+    font-family: Nunito;
+    font-size: 45px;
+}
+
+.headercontainer .Blanc{
+    font-family: Nunito;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.titregauche{
+    float: left;
+}
+
+.titredroite{
+    float: right;
+    margin-right: 5px;
+    line-height: 5px;
+}
+
+.titredroite p{
+    font-size: 20px;
+    margin: 0;
+    padding:10px ;
+    color: #CCCCCC;
+    text-decoration: none;
+
+}
+
+.titredroite span .icon-bar{
+    text-decoration: none;
+    font-family: "Times New Roman";
+    margin: 0;
+    border: solid 1px;
+    border-collapse: collapse;
+    border-color: #fefffe;
+    font-size: 15px;
+    color: #CCCCCC;
+}
+
+.middlecontainer{
+    height: 440px;
+    width: inherit;
+    border-radius: 5px;
+    background-color: #fefffe;
+}
+
+.middlecontainer > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: #949494;
+}
+
+.titredroite{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.navmiddle{
+    background-color: #eb2b50;
+    height: 50px;
+    margin: 0 25px 20px 38px;
+    border-radius: 5px;
+}
+
+.titregauche p{
+    position: relative;
+}
+
+.navmiddle ul{
+    list-style-type: none;
+    margin-left: -15px;
+    margin-top: 0px;
+
+
+}
+
+.navmiddle li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 3px;
+
+}
+
+.navgauche{
+    float: left;
+    margin-left: 0;
+}
+
+.navdroite{
+    float: right;
+}
+
+.navdroite input{
+    margin-right: 10px;
+}
+
+.lowcontainer{
+    width: 100%;
+    height: 1200px;
+    margin-top: 30px;
+
+
+}
+.lowcontainer .colA{
+    height: 375px;
+    background-color: white;
+    width: 28%;
+    float: left;
+    border-radius: 5px;
+    padding-left: 25px;
+
+}
+
+.lowcontainer .colB1{
+    height: 550px;
+    background-color: white;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    border-radius: 5px;
+
+}
+
+.lowcontainer .colB2{
+    height: 550px;
+    background-color: white;
+    width: 30%;
+    float: right;
+    border-radius: 5px;
+}
+
+.colB1, .colB2{
+    text-align: center;
+    margin: auto;
+}
+
+.colA p{
+    color: #949494;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.case{
+    font-size: 14px;
+    color: #CCCCCC;
+    background-color: #292929;
+    background-size: 20px;
+    margin: 10px 9px 10px 9px;
+}
+
+.case p{
+    color: #949494;
+}
+
+.case p strong{
+    color: dimgrey;
+}
+
+.navpagebar{
+    height: 60px;
+    width: 65%;
+    background-color: white;
+    float: right;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    vertical-align: middle;
+    word-spacing: 15px;
+    margin-bottom: 0;
+}
+
+.footer nav{
+    height: 100%;
+    margin-left: 110px;
+}
+.footer ul{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.Rouge{
+    color: #eb2b50;
+}
+
+.Blanc{
+    color: #fefffe;
+    font-size: 25px;
+}
+
+.gris{
+    font-size: 8px;
+    color: #949494;
+    position: absolute;
+    top:14px;
+    left:90px;
+}
