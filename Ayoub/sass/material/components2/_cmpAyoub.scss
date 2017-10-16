@@ -1,0 +1,53 @@
+ayoub{
+width: 100%;
+  p{
+
+  }
+  div{
+    width: 100%;
+    background-color: $primary-color;
+
+  }
+}
+
+//body{
+//  background-color: $button-floating-background;
+//}
+
+
+
+.form{
+  border:none;
+  fieldset{
+    div{
+      border:2px solid #E0F1AA;
+      background-color: #B9CF6A;
+      padding: 5px;
+      border-radius: 5px;
+      margin:5px;
+    }
+    legend{
+
+    }
+  }
+}
+
+
+.alert{
+  //proprietes de tail
+  padding: 20px;
+  width:100%;
+ // background-color: #B9CF6A;
+  @include BordArrondis(5, 5, 5, 5);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  &.alert-Succes{
+    //proprietes de couleurs
+    border:1px solid $Brd-succes;
+    background-color: $Bg-succes !important;
+  }
+  &.alert-Error{
+    border:1px solid $Brd-error;
+    background-color: $Bg-error !important;
+  }
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+// Mixins
+@import "components2/mixins";
+@import "components2/color";
+
+// Variables;
+@import "components2/variables";
+
+// Reset
+@import "components2/normalize";
+
+// components
+@import "components2/global";
+@import "components2/badges";
+@import "components2/icons-material-design";
+@import "components2/grid";
+@import "components2/navbar";
+@import "components2/roboto";
+@import "components2/typography";
+@import "components2/transitions";
+@import "components2/cards";
+@import "components2/toast";
+@import "components2/tabs";
+@import "components2/tooltip";
+@import "components2/buttons";
+@import "components2/dropdown";
+@import "components2/waves";
+@import "components2/modal";
+@import "components2/collapsible";
+@import "components2/chips";
+@import "components2/materialbox";
+@import "components2/forms/forms";
+@import "components2/table_of_contents";
+@import "components2/sideNav";
+@import "components2/preloader";
+@import "components2/slider";
+@import "components2/carousel";
+@import "components2/tapTarget";
+@import "components2/pulse";
+@import "components2/date_picker/default";
+@import "components2/date_picker/default.date";
+@import "components2/date_picker/default.time";
+@import "components2/cmpAyoub";
+
