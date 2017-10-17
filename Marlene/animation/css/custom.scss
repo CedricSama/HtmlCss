@@ -1,0 +1,202 @@
+@keyframes animName {
+  from{
+    background-color: #fffb03;
+    left: 85%;
+    /*right:0;*/
+  }
+  to{
+    /*right: 100%;*/
+    left:0;
+    /*transform:rotate(180deg) ;*/
+    background-color: #ff631d;
+  }
+}
+
+@-webkit-keyframes animNamerotation {
+  0%{
+    right: 0;
+    background-color: red;
+  }
+  100%{
+
+    right: 100%;
+    background-color: yellow;
+
+  }
+}
+@keyframes animNamerotation {
+     0%{
+       right: 0;
+       background-color: red;
+     }
+     100%{
+       right: 100%;
+       background-color: yellow;
+     }
+}
+
+.animation2 {
+  animation-name: animNamerotation;
+  -webkit-animation-name: animNamerotation;
+  -moz-animation-name: animNamerotation;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  animation-delay: 2s;
+  /*background-color: yellow;*/
+}
+
+@keyframes animNamesteps {
+  0%{
+   /* background-color: #eecf87;*/
+    right: 50%;
+  }
+  100%{
+    background-color: rgba(255, 255, 0, 0);
+    right: 100%;
+  }
+}
+
+.animated{
+  position: absolute;
+  margin-top: 300px;
+  /*background-color: #00c200;*/
+  animation-name: animNamesteps;
+  -webkit-animation-name: animNamesteps;
+  -moz-animation-name: animNamesteps;
+  animation-duration: 5s;
+  /*animation-delay: 2s;*/
+  animation-iteration-count: infinite;
+
+}
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+@keyframes animing {
+  0%{
+    left:90%;
+    background-color: #9c27b0;
+  }25%{
+       left:0;
+  background-color: #ffe1e4;
+     }100%{
+background-color: lavender;
+           }
+}
+.animatedimg{
+  margin: 10px;
+  position: absolute;
+  animation-direction: alternate;
+  animation-name: animing;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+
+
+#mt{
+  margin-top: 100px;
+}
+
+#div1 {animation-timing-function:linear;
+  top:0;}
+#div2  {animation-timing-function:ease;
+  top:30px;}
+#div3 {animation-timing-function:ease-in;
+  top:60px;}
+#div4 {animation-timing-function:ease-in-out;
+  top:90px;}
+
+.tran{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -o-transition: width 5s;
+  -moz-transition: width 5s;
+  -webkit-transition: width 5s;
+  transition: width 5s linear, background-color 2s ease 3s, opacity 2s ;
+  opacity: 1;
+}
+
+.tran:hover{
+  background-color: yellow;
+  width: 500px;
+  opacity: 0;
+}
+
+.tranBulle{
+  /*padding-bottom: -20px;*/
+  width:1110px;
+  height:180px;
+  overflow:hidden;
+  float:left;
+  margin:30px 30px 0 0;
+
+}
+
+
+.tranBulle {
+  width:1000px;
+  height:180px;
+  overflow:hidden;
+  margin:0;
+}
+
+p {
+  width: 1000px;
+  height:40px;
+  padding:0;
+  opacity:.6;
+  background-color: black;
+  color: white;
+  -webkit-transition: margin-top .2s ease-out;
+  -moz-transition: margin-top .2s ease-out;
+  transition: margin-top .2s ease-out;
+}
+
+.tranBulle:hover p {
+  margin-top:-78px;
+}
+
+.cielMer{
+  background-image: url("../img/cielMer.png");
+  height: 1200px;
+  background-repeat: no-repeat;
+}
