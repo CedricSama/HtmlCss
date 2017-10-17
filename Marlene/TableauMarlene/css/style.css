@@ -1,0 +1,176 @@
+body{
+    font-family: Arial;
+}
+caption{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.tableau1{
+    width:90%;
+    margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+}
+.tableau1 thead th{
+    text-align: center;
+    background-color: #ebf0df;
+}
+.tableau1 tfoot th{
+    text-align: center;
+  background-color: #f1f8ff;
+    text-transform: capitalize;
+    color: darkgray;
+}
+.tableau1 tr:nth-child(2n){
+    background-color: #e2defa;
+}
+.tableau1 tr:nth-child(2n+1){
+    background-color: #ffcece;
+}
+
+.tableau1 td[toto="price"]{
+    text-align: right;
+
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+
+}
+.container .title{
+    width: 100%;
+    height: 40px;
+    background-color: #EBEBEB;
+}
+
+.container tr:not(:last-child){
+    background-color: #DEF3CA;
+    color: #666673;
+    font-size: large;
+}
+
+.container tr th:not(:first-child){
+    background-color: #72aa21 ; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #9AD62E , #7CC142); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #9AD62E, #7CC142); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #9AD62E, #7CC142); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #9AD62E, #7CC142); /* Standard syntax */
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+.container tbody tr:not(:last-child) td:first-child{
+    background-color: #72aa21 ; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #9AD62E , #7CC142); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #9AD62E, #7CC142); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #9AD62E, #7CC142); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #9AD62E, #7CC142); /* Standard syntax */
+    color: white;
+    border-radius: 5px 0 0 5px;
+}
+
+
+thead th{
+   height: 50px;
+    padding: 5px;
+
+}
+.container tr td{
+    height: 50px;
+    padding: 5px;
+}
+
+.container tbody tr:last-child{
+    color:#9CD009 ;
+    font-size: 35px;
+    text-shadow: 2px 1px  #666673;
+}
+.container tbody tr:last-child td:first-child{
+    color: #666673;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+
+.tableau2{
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-align: center;
+
+
+}
+.tableau2 table{
+    border-collapse: collapse;
+
+}
+.tableau2 .title{
+    width: 100%;
+    height: 40px;
+    background-color: #EBEBEB;
+}
+.tableau2 tbody td:first-child  {
+    background-color: #F9F9F9;
+
+}
+
+.tableau2 tr th:not(:first-child){
+    background-color: black;
+    color: white;
+    border-top: 3px solid #666666;
+}
+
+.tableau2 tbody tr:last-child td:not(:first-child) {
+    background-color: black;
+    color: white;
+    border-bottom: solid 3px #666666;
+    color: #EF870E;
+    font-size: 30px;
+
+}
+
+.tableau2 tbody tr:last-child td:first-child{
+    color:#666666 ;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.tableau2 tbody tr:last-child td:first-child{
+    background-color: transparent;
+}
+
+.tableau2 table td{
+    background-color:#F0F0F0 ;
+}
+.tableau2 thead th{
+    height: 50px;
+    padding: 5px;
+
+}
+.tableau2 tr td{
+    height: 50px;
+    width: 150px;
+    padding: 5px;
+}
+.tableau2 tr:nth-child(3) td:not(:first-child){
+    text-transform: uppercase;
+}
+.tableau2 tr:nth-child(2) td:last-child{
+    text-transform: uppercase;
+}
+.tableau2 thead th:not(:last-child){
+    border-right: 1px dotted lightgray;
+}
+
+.tableau2 thead th:first-child{
+    border: none;
+}
+.tableau2 tr td:not(:first-child){
+    border-right: 1px dotted black;
+}
+.tableau2 tr td:last-child{
+    border:none;
+}
+
+.tableau2 td:first-child{
+    text-align: right;
+}
