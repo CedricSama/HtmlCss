@@ -1,0 +1,42 @@
+.cielMer {
+  background-image: url("../img/cielMer.png");
+  height: 1200px;
+  background-repeat: no-repeat; }
+
+@keyframes wave {
+  0% {
+    transform: initial;
+    margin-left: 40%; }
+  20% {
+    transform: translateY(-70px);
+    margin-left: 38%; }
+  30% {
+    transform: translateY(0);
+    margin-left: 35%; }
+  40% {
+    transform: translateY(-70px);
+    margin-left: 33%; }
+  50% {
+    transform: translateY(0);
+    margin-left: 30%; }
+  60% {
+    transform: translateY(-70px);
+    margin-left: 25%; }
+  70% {
+    transform: translateY(0);
+    margin-left: 20%; }
+  80% {
+    transform: translateY(-70px);
+    margin-left: 15%; }
+  90% {
+    transform: translateY(0);
+    margin-left: 10%; }
+  100% {
+    transform: translateY(-70px);
+    margin-left: 0; } }
+.poisson {
+  margin-top: 20%;
+  display: inline-block;
+  animation: wave 5s linear infinite; }
+
+/*# sourceMappingURL=custom.css.map */
