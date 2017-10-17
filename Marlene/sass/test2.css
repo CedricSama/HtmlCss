@@ -1,0 +1,14 @@
+html, body {
+  border: 1px solid #b37399;
+  width: 100%;
+  margin: 0; }
+
+.container {
+  width: 100%;
+  margin: 0;
+  margin-left: 15px;
+  margin-right: 15px; }
+  .container .autreclasse {
+    background-color: #00acc1; }
+
+/*# sourceMappingURL=test2.css.map */

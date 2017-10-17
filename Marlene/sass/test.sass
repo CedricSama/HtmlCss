@@ -1,0 +1,22 @@
+$bord: 1px solid #000
+
+=flex
+  width: 100%
+  margin: 0
+
+=marge15
+  margin:
+    left: 15px
+    right: 15px
+
+
+html,
+body
+  border: $bord
+  +flex
+
+.container
+  +flex
+  +marge15
+  .autreclasse
+    background-color: #00acc1
