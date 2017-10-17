@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: #EEEEEE;
+}
+.bg-orange{
+    background-color:#FF5C01 ;
+}
+.bg-dkgrey{
+    background-color: #555;
+}
+.bg-white{
+    background-color: white;
+}
+.text-white{
+    color: white;
+}
+.text-orange{
+    color:#FF5C01;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.border{
+    border-left: 3px solid #FF5C01;
+}
+h1, h2, h3, h4, h5, h6, p{
+   font-family: Arial;
+}
+.slider{
+    max-width: 100%;
+}
+.card-block{
+    padding: 0;
+}
+.pullRight{
+    display: flex;
+    justify-content: flex-end;
+}
+.welcome::before{
+   content: url("../../img/puce_orange.png");
+    margin-right: 15px;
+}
+.welcomeBuy p{
+    margin-left: 24px;
+}
+
