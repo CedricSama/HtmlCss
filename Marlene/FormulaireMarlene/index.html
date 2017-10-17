@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+<h1>Formulaire de paiement</h1>
+
+<div class="container">
+
+    <form action="" class="form">
+        <fieldset>
+            <legend>Step 1 : Votre identité</legend>
+            <div class="form-row">
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" placeholder="Prenom et Nom">
+            </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,5}$" name="email" id="email" placeholder="exemple@domaine.com">
+            </div>
+            <div class="form-row">
+                <label for="telephone">Telephone</label>
+                <input type="tel" required pattern="[0]{1}[1-9]{1}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}$" name="telephone" id="telephone" placeholder="par ex: 0122334455">
+            </div>
+            <div class="form-row">
+                <label for="datanniv">Date de Naissance</label>
+                <input type="date" name="datanniv" id="datanniv" required>
+            </div>
+
+
+            <legend>Step 2 : Adresse de livraison</legend>
+            <div class="form-row">
+                <label for="adresse">Adresse</label>
+                <input type="text" name="adresse" id="adresse" >
+            </div>
+            <div class="form-row">
+                <label for="code_postal">Code Postal</label>
+                <input type="text" name="code_postal" id="code_postal">
+            </div>
+            <div class="form-row">
+                <label for="pays">Pays</label>
+                <input type="text" name="pays" id="pays">
+            </div>
+
+
+
+            <legend>Step 3 : Informations CB</legend>
+
+            <div class="img">
+
+                <div class="form-row">
+                    <p>Type de carte bancaire:</p>
+                    <div class="btn_carte">
+                        <input id="checkBox_amex" type="checkbox" name="checkBox_amex" value="checkBox_amex" ">
+                        <label for="checkBox_amex"><img src="img/amex.gif" alt="">Amex</label>
+                    </div>
+                    <div class="btn_carte">
+                        <input id="checkBox_mastercard" type="checkbox" name="checkBox_mastercard" value="checkBox_mastercard">
+                        <label for="checkBox_mastercard"><img src="img/mastercard.gif" alt=""> Mastercard</label>
+                    </div>
+                    <div class="btn_carte">
+                        <input id="checkBox_visa" type="checkbox" name="checkBox_visa" value="checkBox_visa">
+                        <label for="checkBox_visa"><img src="img/visa.gif" alt="">Visa</label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label for="numéro_carte">Numéro de carte</label>
+                    <input type="text" name="numéro_carte" id="numéro_carte" pattern="[0-9]{16}" placeholder="0000111100001111">
+                </div>
+                <div class="form-row">
+                    <label for="code_securite">Code Sécurité</label>
+                    <input type="text" name="code_securite" id="code_securite" >
+                </div>
+                <div class="form-row">
+                    <label for="porteur_carte">Nom du porteur</label>
+                    <input type="text" name="porteur_carte" id="porteur_carte" placeholder="même nom que sur la carte">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+</div>
+</body>
+</html>

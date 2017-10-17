@@ -1,0 +1,40 @@
+*{
+    font-size: 50px;
+}
+div{
+    font-family: Arial;
+}
+#idelement{
+    font-size: 30px;
+}
+.classname{
+    background-color: #72aa21 ;
+}
+
+#div1> p{
+   background-color: red;
+}
+
+#div2>p{
+    background-color: greenyellow;
+}
+#toto #titi{
+    background-color: yellow;
+}
+#idelement2{
+
+}
+#titi2{v
+    background-color: fuchsia;
+}
+#toto{
+    background-color: paleturquoise;
+}
+#toto .titi{
+    background-color: grey;
+}
+#toto .tata p.particuliere{
+    background-color: pink;
+    font-family: "Times New Roman";
+    font-size: 12px;
+}
