@@ -1,0 +1,50 @@
+.bg-blue {
+  background-color: #00ADB3; }
+
+nav a,
+.white-text {
+  color: #FFFFFF !important; }
+
+.imagecaroussel {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #787a78; }
+
+.devider {
+  width: 100%;
+  border-bottom: 1px dashed #00ADB3; }
+
+.TitreBlue {
+  background-color: #00ADB3;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 15px; }
+
+.card {
+  background-color: #EEEEEE;
+  border: 1px solid #626669; }
+  .card h4 {
+    color: #00ADB3;
+    font-size: 20px; }
+  .card a {
+    color: #00ADB3;
+    font-size: 16px; }
+    .card a::after {
+      content: url("../img/arrow_bullet.png");
+      margin-left: 8px; }
+
+#img-droit {
+  width: 100%; }
+
+blockquote {
+  font-family: "Segoe Print","Times New Roman", Verdana;
+  font-style: oblique;
+  color: #797979;
+  font-size: smaller; }
+  blockquote::before {
+    content: url("../img/quotes.png"); }
+  blockquote::after {
+    content: url("../img/quotes2.png");
+    float: right; }
+
+/*# sourceMappingURL=style2.css.map */
