@@ -1,0 +1,225 @@
+@-moz-keyframes animName {
+  from{
+    left: 100%;
+    background-color: #00acc1;
+    height: 150px;
+  }
+  to{
+    left: 0;
+    transform: rotate(180deg);
+    background-color: #f7315d;
+    height: 300px;
+  }
+}
+@-webkit-keyframes animName {
+  from{
+    left: 100%;
+    background-color: #00acc1;
+    height: 150px;
+  }
+  to{
+    left: 0;
+    transform: rotate(180deg);
+    background-color: #f7315d;
+    height: 300px;
+  }
+}
+@keyframes animName {
+  from{
+    left: 100%;
+    background-color: #00acc1;
+    height: 150px;
+}
+  to{
+    left: 0;
+    transform: rotate(180deg);
+    background-color: #f7315d;
+    height: 300px;
+  }
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+.animated{
+  position: absolute;
+  animation-name:animName ;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  -webkit-animation-name:animName ;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: 2;
+  -moz-animation-name:animName ;
+  -moz-animation-duration: 5s;
+  -moz-animation-iteration-count: 2;
+}
+
+@-moz-keyframes animNamesteps {
+  0%{
+    background-color: #00acc1;
+    height: 50px;
+  }
+  25%{
+    background-color: #9d223c;
+    height: 100px;
+  }
+  50%{
+    background-color: #30c111;
+    height: 150px;
+  }
+  100%{
+    background-color: #feff14;
+    height: 200px;
+    transform: rotate(180deg);
+  }
+}
+@-webkit-keyframes animNamesteps {
+  0%{
+    background-color: #00acc1;
+    height: 50px;
+  }
+  25%{
+    background-color: #9d223c;
+    height: 100px;
+  }
+  50%{
+    background-color: #30c111;
+    height: 150px;
+  }
+  100%{
+    background-color: #feff14;
+    height: 200px;
+    transform: rotate(180deg);
+  }
+}
+@keyframes animNamesteps {
+  0%{
+    background-color: #00acc1;
+    height: 50px;
+  }
+  25%{
+    background-color: #9d223c;
+    height: 100px;
+  }
+  50%{
+    background-color: #30c111;
+    height: 150px;
+  }
+  100%{
+    background-color: #feff14;
+    height: 200px;
+    //transform: rotate(180deg);
+  }
+}
+
+#div6 {animation-timing-function: linear;}
+#div7 {animation-timing-function: ease;}
+#div8 {animation-timing-function: ease-in;}
+#div9 {animation-timing-function: ease-out;}
+#div10 {animation-timing-function: ease-in-out;}
+
+.animated2{
+  animation-name:animNamesteps ;
+  animation-duration: 10s;
+  animation-delay: 10s;
+  -webkit-animation-name: animNamesteps;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-delay: 10s;
+  -moz-animation-name: animNamesteps;
+  -moz-animation-duration: 10s;
+  -moz-animation-delay: 10s;
+}
+
+#div11 {animation-timing-function: linear;top:0;}
+#div12 {animation-timing-function: ease;top: 20px}
+#div13 {animation-timing-function: ease-in;top: 40px}
+#div14 {animation-timing-function: ease-out;top:60px}
+#div15 {animation-timing-function: ease-in-out; top:80px}
+
+.animated3{
+  margin: 10px;
+  position: absolute;
+  //background-color: greenyellow;
+  animation-direction: alternate;
+  animation-name:anim3 ;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anim3 {
+  0%{
+    left: 90%;
+    background-color: #1cf70f;
+  }
+  25% {
+    left: 0;
+    background-color: #f7315d;
+  }
+  100%{
+      background-color: #feff14;
+      transform: rotate(180deg);
+  }
+}
+
+.animatedimg{
+  //position: absolute;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  //border-radius: 5px;
+  //border: 1px dashed red;
+  animation-direction: alternate;
+  animation-name:animimg ;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-fill-mode:forwards;
+  animation-delay: 2s;
+}
+
+@keyframes animimg {
+  0%{
+    margin-left: 100px;
+    background-image: url("../img/chaton.jpg");
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+  }
+  25% {
+    margin-left: 300px;
+    background-image: url("../img/chiot.jpg");
+    background-repeat: no-repeat;
+    transform: rotate(360deg);
+  }
+  50% {
+    margin-left: 500px;
+    background-image: url("../img/chaton.jpg");
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+  }
+  100%{
+    margin-left: 100%;
+    background-image: url("../img/chiot.jpg");
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+  }
+}
+
+.tran{
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  -o-transition: width 5s;
+  -moz-transition: width 5s;
+  -webkit-transition: width 5s;
+  transition: width 5s linear, background-color 2s, opacity 5s;
+  opacity: 1;
+}
+
+.tran:hover{
+  background-color: red;
+  width: 500px;
+  opacity: 0;
+}
