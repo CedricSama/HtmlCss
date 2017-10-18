@@ -1,0 +1,141 @@
+
+
+#wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+caption{
+    background-color: #F0F0F0;
+    color: #AAAAAA;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: medium;
+}
+
+.tableau1{
+    text-align: center;
+    font-weight: bold;
+    /*font-family: Arial;*/
+    /*font-size: medium;*/
+}
+
+.tableau1 thead th{
+    text-align: center;
+    height: 50px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #9dd82c,#7bc043);
+    border-radius: 5px 5px 0px 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tableau1 thead th:first-child{
+    background: transparent;
+}
+
+.tableau1 tfoot th:first-child{
+    color: #666666;
+    font-size: medium;
+}
+
+.tableau1 tfoot th{
+    color: #9CD009;
+    font-size: x-large;
+}
+
+.tableau1 td{
+    background-color: #DEF3CA;
+    height: 50px;
+    color: #666666;
+}
+.tableau1 td:first-child{
+    background-image: linear-gradient(to right, #9dd82c,#7bc043);
+    color: #FFFFFF;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tableau1 th:first-child, .tableau2 th:first-child{
+    /*background-color: #FFFFFF;*/
+    border: none;
+    background-color: transparent;
+}
+
+.tableau2{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.tableau2 thead th{
+    border-top: 3px solid #666666;
+    text-align: center;
+    height: 100px;
+    color: #FFFFFF;
+    background-color: #222222;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tableau2 thead th:not(:last-child){
+    border-right: 1px dotted #F0F0F0;
+}
+
+.tableau2 thead th:first-child{
+    border: none;
+}
+
+.tableau2 td:first-child{
+    /*background: transparent;*/
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+
+.tableau2 td{
+    background-color: #F0F0F0;
+}
+
+.tableau2 tfoot th:first-child{
+    color: #666666;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+.tableau2 tfoot th:not(:first-child){
+    border-bottom: 3px solid #666666;
+
+}
+
+.tableau2 tr:nth-child(3) td:not(:first-child){
+    text-transform: uppercase;
+}
+
+.tableau2 tr td:not(:first-child) {
+    border-right: 1px dotted #666666;
+}
+
+.tableau2 tr td:last-child{
+    border: none;
+}
+
+.tableau2 tr:nth-child(2) td:last-child{
+    text-transform: uppercase;
+}
+
+.tableau2 tfoot th:not(:first-child){
+    color: #EF870E;
+    font-size: x-large;
+    background-color: #222222;
+}
+
+.tableau2 tbody td, .tableau2 tfoot td{
+    height: 60px;
+}
