@@ -1,0 +1,12 @@
+/*Universel*/
+*{font-size: 50px}
+/*Tag by name*/
+body{width: 100%}
+/*div{font-family: ;}*/
+/*id*/
+#idelement{}
+/*class*/
+.classname{}
+
+#div1 p{color: red;}
+#div1 > p{color: green;}

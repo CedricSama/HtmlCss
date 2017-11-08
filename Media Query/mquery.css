@@ -1,0 +1,66 @@
+.ligne {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+@media all and (min-width: 1000px) {
+  .gmediafull {
+    width: 100%;
+    background: #7f99ff;
+    height: 150px;
+    padding: 50px;
+    display: inline;
+    text-align: center;
+    border: solid 1px black;
+    box-sizing: border-box; }
+
+  .div1, .gmediahalf {
+    width: 50%;
+    background: #13ff23;
+    height: 150px;
+    padding: 50px;
+    display: inline;
+    text-align: center;
+    border: solid 1px black;
+    box-sizing: border-box; } }
+@media all and (min-width: 600px) and (max-width: 1000px) {
+  .mmediafull {
+    width: 100%;
+    background: #13ff23;
+    height: 150px;
+    padding: 50px;
+    display: inline;
+    text-align: center;
+    border: solid 1px black;
+    box-sizing: border-box; }
+
+  .div1, .mmediahalf {
+    background: #5679ff;
+    height: 150px;
+    padding: 30px;
+    display: inline;
+    width: 50%;
+    text-align: center;
+    border: solid 1px black;
+    box-sizing: border-box; } }
+@media all and (max-width: 600px) {
+  .div1, .pmediafull {
+    background: #ff4738;
+    height: 125px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border: solid 1px black;
+    box-sizing: border-box; }
+
+  .pmediahalf {
+    width: 50%;
+    background: #13ff23;
+    height: 125px;
+    padding: 50px;
+    display: inline;
+    text-align: center;
+    border: solid 1px black;
+    box-sizing: border-box; } }
+
+/*# sourceMappingURL=mquery.css.map */

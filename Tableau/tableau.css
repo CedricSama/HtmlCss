@@ -1,0 +1,161 @@
+*{
+     margin: 0;
+     padding: 0;
+ }
+caption{
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #aaaaaa;
+    text-align: left;
+    background: #f0f0f0;
+    margin: 35px auto;
+    padding: 15px;
+}
+.tab1, .tab2, .tab3{
+    width: 90%;
+    margin: 150px auto;
+    text-align: center;
+}
+.tab1 th:nth-child(1){
+    background: #ffdf3c;
+}
+.tab1 th:nth-child(2){
+    background: #ff714d;
+}
+.tab1 th:nth-child(3){
+    background: #ff558d;
+}
+.tab1 tr:nth-child(2n){
+    background: rgba(26, 31, 252, 0.32);
+}
+.tab1 tr:nth-child(2n+1){
+    background: #ffc99a;
+}
+.tab1 tfoot th{
+    background: black!important;
+    color: white;
+    height: 35px;
+}
+
+.tab2{
+    font-family: Arial, sans-serif;
+}
+.tab2 thead th:not(:first-child){
+    width:20%;
+    height: 50px;
+    background: linear-gradient(to bottom, #9ad62e, #7cc142);
+    color: white;
+    border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
+    border: solid 1px #93ce37;
+    border-bottom: solid 3px #93ce37;
+
+}
+.tab2 tbody td:first-child{
+    width:20%;
+    height: 50px;
+    background: linear-gradient(to right, #9ad62e, #7cc142);
+    color: white;
+    border-radius: 5px 0 0 5px;
+    border: solid 1px #93ce37;
+    box-sizing: border-box;
+}
+.tab2 tbody td{
+    background: #def3ca;
+    color: #666673;
+    font-weight: 500;
+}
+.tab2 tfoot th:not(:first-child){
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    color: #9cd009;
+    font-size: 25px;
+    text-shadow: 1px 1px #746666;
+}
+.tab2 tfoot th:first-child{
+    color: #666666;
+    font-size: 13px;
+}
+
+.tab3{
+    font-family: Georgia, sans-serif;
+    border-collapse: collapse;
+}
+.tab3 thead th:not(:nth-child(1)){
+    color: white;
+    background: #222222;
+    height: 90px;
+    box-sizing: border-box;
+    border-top: solid 3px #666666;
+}
+.tab3 thead th:not(:nth-child(1)):not(:nth-child(5)){
+    border-right: dashed 1px rgba(102, 102, 102, 0.17);
+ }
+.tab3 tbody td:nth-child(1){
+    background: #f9f9f9;
+    color: #333333;
+    font-weight: bold;
+    text-align: right;
+    height: 60px;
+    padding-right: 10px;
+}
+.tab3 tbody td:not(:nth-child(1)){
+    background: #f0f0f0;
+}
+.tab3 tbody td:not(:nth-child(1)):not(:nth-child(5)){
+    box-sizing: border-box;
+    border-right: dashed 1px rgba(102, 102, 102, 0.17);
+}
+.tab3 tfoot th:nth-child(1){
+    color: #888888;
+    font-size: 15px;
+    height: 75px;
+}
+.tab3 tfoot th:not(:nth-child(1)){
+    font-size: 25px;
+    background: #222222;
+    color: #ef870e;
+    border-bottom: 3px solid #666666;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

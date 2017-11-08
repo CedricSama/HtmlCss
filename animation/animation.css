@@ -1,0 +1,136 @@
+/*
+@keyframes animName {
+  from {
+    right: 10%;
+    background: blue;
+  }
+  to{
+    right: 96%;
+    background: green;
+  }
+}
+@-webkit-keyframes animName2 {
+  0%{
+    left: 96%;
+    background: blue;
+    transform: rotate(-3600deg);
+  }
+  95%{
+    left: 0;
+    transform: rotate(90deg);
+    background: green;
+  }
+  100%{
+  }
+}
+@-moz-keyframes animName2 {
+  0%{
+    left: 96%;
+    background: blue;
+    transform: rotate(-3600deg);
+  }
+  95%{
+    left: 0;
+    transform: rotate(90deg);
+    background: green;
+  }
+  100%{
+  }
+}
+@-o-keyframes animName2 {
+  0%{
+    left: 96%;
+    background: blue;
+    transform: rotate(-3600deg);
+  }
+  95%{
+    left: 0;
+    transform: rotate(90deg);
+    background: green;
+  }
+  100%{
+  }
+}
+.animated{
+  animation-name: animName;
+  animation-duration: 5s;
+  background: red;
+  position: absolute;
+}
+.animated2{
+  animation-name: animName2;
+  animation-duration: 5s;
+  background: red;
+  position: absolute;
+}
+
+@keyframes nimp {
+  0%{
+    left: 200px;
+    top: 400px;
+    transform: rotate(-7500deg);
+    background: mediumvioletred;
+  }
+  25%{
+    left: 50px;
+    top: 150px;
+    transform: rotate(500deg);
+    background: #13ff23;
+   }
+  50%{
+    left: 75px;
+    top: 300px;
+    transform: rotate(-700deg);
+    background: #ffdc00;
+  }
+  100%{
+    left: 500px;
+    top: 250px;
+    transform: rotate(500deg);
+    background: #cb00ff;
+  }
+
+}
+
+.nimp {
+  animation-name: nimp;
+  animation-duration: 85ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  background: black;
+  position: relative;
+  animation-fill-mode: backwards;
+}
+
+div{
+  height: 50px;
+  width: 50px;
+}*/
+div {
+  margin: 25% 40%;
+  width: 500px; }
+
+.tran {
+  text-decoration: none;
+  width: 250px;
+  height: 100px;
+  padding: 5px;
+  color: #84b3ff;
+  margin: 25px auto;
+  background: white;
+  -o-transition: width 5s, background 2s, opacity 2s, color 1s, padding 2s, border-radius 5s;
+  -moz-transition: width 5s, background 2s, opacity 2s, color 1s, padding 2s, border-radius 5s;
+  -webkit-transition: width 5s, background 2s, opacity 2s, color 1s, padding 2s, border-radius 5s;
+  transition: width 5s, background 2s, opacity 2s, color 1s, padding 2s, border-radius 5s; }
+
+.tran:hover {
+  border-radius: 7px;
+  text-align: center;
+  background: black;
+  width: 100%;
+  color: #ffd87a;
+  opacity: 0.5;
+  padding: 50px; }
+
+/*# sourceMappingURL=animation.css.map */
