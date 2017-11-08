@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #8f8f8f;
+}
+@font-face {
+    font-family: 'Love Ya Like A Sister';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Love Ya Like A Sister Regular'), local('LoveYaLikeASister-Regular'), url(font/lylas.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+a:link,a:visited{
+}
+body{
+    width: 80%;
+    margin: auto;
+    max-width: 600px;
+}
+/*Entete*/
+header{
+    height: 280px;
+    border-bottom: 2px solid #82c031;
+    background: url("img/header_bg.png")center no-repeat;
+}
+header>div>img{
+    margin-top: 75px;
+}
+header h1 ,header h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #cccccc;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+/*Menu*/
+header>nav{
+    margin-top: 54px;
+    float: right;
+    margin-right: 60px;
+}
+header>nav>ul>li{
+    text-align: center;
+    background: #80c02e;
+    display: inline-block;
+    width: 80px;
+    height: 22px;
+    margin: auto 1px;
+    padding: 1px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+header>nav>ul>li:hover {
+    background: #78b42a;
+}
+header>nav>ul>li>a:link, header>nav>ul>li>a:visited{
+    color: white;
+}
+/*Page*/
+main{
+    height: 400px;
+    box-sizing: content-box;
+}
+main>section>h1{
+    font-family: 'Love Ya Like A Sister' ;
+    color: #dab700;
+    font-size: 35px;
+ }
+main>section>h2{
+    color: #80c02e;
+}
+main>section>a{
+    font-size: 20px;
+    color: #ffba01;
+}
+main>section>a:hover{
+    text-decoration: underline;
+ }
+/*Bloc gauche*/
+main>section:nth-child(1){
+    /*background: cornflowerblue;*/
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin-left: 50px;
+    font-size: 10px;
+}
+main>section:nth-child(1)>img{
+    margin: 15px auto 0 auto;
+    width: 80%;
+
+ }
+main>section:nth-child(1)>h2{
+    font-size: 12px;
+    margin: 0 10px 10px 10px;
+}
+main>section:nth-child(1)>a{
+
+}
+
+/*bloc droite*/
+main>section:nth-last-child(1){
+    float: right;
+    width: 244px;
+    height: 100%;
+}
+main section b{
+    color: #e0c100;
+}
+main section strong{
+    color: #7fad26;
+}
+main>section>ul>li{
+    background: #ebebeb;
+    margin: 2px auto;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+main>section>ul>li>b{
+    color: #739e32;
+}
+/*Video*/
+video{
+    margin: 10px auto;
+    width: 80%;
+}
+audio{
+    width: 80%;
+    background: black;
+}
+object{
+    width: 800px;
+    height: 800px;
+}
+/*footer*/
+footer>h3{
+    background: black;
+    float: right;
+    color: grey;
+}

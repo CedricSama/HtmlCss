@@ -1,0 +1,19 @@
+h1{
+    font-family:"Arial Black"!important;
+    size:400px;
+    text-transform: capitalize;
+}
+div:nth-of-type(2)>h1{
+    font-family: Arial;
+    size:30px;
+    color: aquamarine;
+}
+#title1{
+    font-family: "Agency FB";
+    size: 20px;
+}
+.title2{
+    font-family: "Aharoni";
+    size: 10px;
+    text-decoration: underline;
+}
