@@ -1,0 +1,118 @@
+.bggrey {
+  background: #555555;
+}
+
+.bggreyclaire {
+  background: #555555;
+}
+
+.bgbody {
+  background: #eeeeee;
+}
+
+.bggreyquote {
+  background: #777777;
+}
+
+.bgorange {
+  background: #ff5c02;
+}
+
+.cfontorange {
+  color: #ff5c01;
+}
+
+.cfontgreay {
+  color: #575757;
+}
+
+header {
+  div {
+    height: 50px;
+    li {
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      display: inline-block;
+    }
+  }
+}
+
+.logo {
+  img {
+    margin: 15px 0;
+  }
+}
+
+.navBar {
+  margin: 1px 0;
+  li {
+    a {
+      font-size: 13px;
+      padding: 0 10px;
+    }
+  }
+  .brand-logo {
+    img {
+      margin: 0 20px;
+    }
+  }
+}
+
+.imageprincipale {
+  img {
+    width: 100%;
+  }
+}
+
+.white {
+  margin: 0 auto 10px auto;
+  font-size: 9px;
+}
+
+.billet {
+  .white {
+    padding: 5px 5px 20px 5px;
+    margin: 0 auto 10px auto;
+    font-size: 9px;
+  }
+  div {
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  /*div:nth-child(2) {
+    img {
+      position: absolute;
+      width: 20%;
+      top: 0;
+      left: 0;
+    }*/
+  img {
+    position: absolute;
+    width: 18%;
+    top: 0;
+    left: 0;
+  }
+  h2 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .divider {
+    width: 15%;
+    margin: 0 auto;
+  }
+  a {
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+}
+
+.msglarge{
+  h3{
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  button{
+  }
+}
