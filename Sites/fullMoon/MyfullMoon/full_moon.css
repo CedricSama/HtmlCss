@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'glyphicons';
+    src: url('../fonts/glyphicons-halflings-regular.svg');
+}
+.colorfont_w{
+    color: white!important;
+}
+.font_nav{
+    font-family: glyphicons, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+.navbar a:hover{
+    color: #f86b8e!important;
+}
+.bg-green{
+    background: #00adb3;
+}
+.separation{
+    margin: 35px 0;
+    border-bottom: dotted 2px #00adb3;
+}
+.billet{
+    background: #eeeeee;
+    border: solid transparent 1px;
+}
+.billet img:nth-child(1){
+    padding-bottom: 5px;
+}
+.billet h4{
+    color: #00adb1;
+}
+.billet a{
+    color: #00c5c9;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.grisFonce{
+    background: #999999;
+    padding: 15px;
+}
+.grisFonce img{
+    margin-right: 10px;
+}
+.grisFonce .btnTweet{
+    float: right;
+    margin-top: -7px;
+    border-radius: 7px;
+    background: #bbcdd1!important;
+    border: hidden;
+}
+.grisClair{
+    background: #eeeeee;
+    padding: 30px;
+}
+.barNoir{
+    font-size: small;
+    color: white;
+    background: #484848;
+    padding: 10px 20px;
+}
+.barNoir span{
+    color: #00adb3;
+}
+.barIcon{
+    transform: scale(0.5);
+    margin-left: -310px;
+}
+.titre.Vignette{
+    color: white;
+    background: #00adb3!important;
+    padding: 15px;
+}
+.legend{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 7px;
+}
+.IV, .VI{
+    font-style: italic;
+    font-size: small;
+    background: #eeeeee;
+    padding: 15px;
+}
+.IV img{
+    margin-top: -15px;
+}
+.V .btnTweet{
+    float: right;
+    margin-top: -7px!important;
+    background: #79d3db;
+    border: hidden;
+    border-radius: 7px;
+}
+.IV p{
+    margin-top: 10px;
+    margin-left: 65px;
+    font-size: large;
+}
+.VI img{
+    margin-left: -10px;
+    margin-top: -20px;
+}
+.Mycol{
+    padding-right: 15px;
+    padding-left: 15px;
+}
